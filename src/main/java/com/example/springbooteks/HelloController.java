@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from Spring Boot deployed on AWS EKS!";
+        return "Hello from Spring Boot deployed on Kubernetes! Using GitHub Actions CI/CD pipeline with Docker and Kind.";
     }
 }
