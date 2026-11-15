@@ -23,7 +23,7 @@ jobs:
           cache: maven
 
       - name: Maven Build and Test
-        run: mvnw.cmd clean verify
+        run: mvn clean verify
 
       - name: Build Docker Image
         run: docker build -t springboot-eks:${{ github.sha }} .
