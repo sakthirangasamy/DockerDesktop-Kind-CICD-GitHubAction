@@ -4,7 +4,7 @@ name: Spring Boot Kubernetes CI-CD
 on:
   push:
     branches:
-      - main
+      - sakthi_dev
 
 jobs:
   build-and-deploy:
